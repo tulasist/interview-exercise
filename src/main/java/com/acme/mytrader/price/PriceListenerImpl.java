@@ -25,4 +25,24 @@ public class PriceListenerImpl implements PriceListener {
             isServiceExecuted = true;
         }
     }
+
+    public String getSecurity() {
+        return security;
+    }
+
+    public Double getLevelPrice() {
+        return levelPrice;
+    }
+
+    public Integer getNoOfQuantities() {
+        return noOfQuantities;
+    }
+
+    public ExecutionService getExecutionService() {
+        return executionService;
+    }
+
+    public boolean isServiceExecuted() {
+        return isServiceExecuted;
+    }
 }
